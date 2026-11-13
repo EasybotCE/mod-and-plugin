@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 3,
+  "id": "easybot-mod",
+  "version": "1.0.0",
+  "name": "EasyBot Mod",
+  "description": "EasyBot-CE Fabric mod (shared API)",
+  "authors": ["EasyBot-CE"],
+  "entrypoints": {
+    "main": ["ce.easybot.mod.EasyBotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": ">=1.21"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+name: EasyBot
+version: 1.0.0
+main: ce.easybot.plugin.EasyBotPlugin
+api-version: "1.21"
+author: EasyBot-CE
+description: EasyBot-CE Paper plugin (shared API)

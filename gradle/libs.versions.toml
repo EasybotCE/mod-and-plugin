@@ -1,0 +1,15 @@
+[versions]
+minecraft     = "1.21.11"
+yarn          = "1.21.11+build.6"
+fabricLoader  = "0.20.1"
+fabricApi     = "0.141.6+1.21.11"
+paperApi      = "1.21.11-R0.1-SNAPSHOT"
+loom          = "1.20.0-alpha.31"
+shadow        = "9.6.1"
+
+[libraries]
+paper-api = { module = "io.papermc.paper:paper-api", version.ref = "paperApi" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+loom   = { id = "fabric-loom", version.ref = "loom" }
