@@ -1,3 +1,11 @@
+# IDE
+.vscode
+.vs
+.codebuddy
+.workbuddy
+.trae
+.idea
+
 # Compiled class file
 *.class
 
